@@ -1,0 +1,39 @@
+# Instrucoes para o programa
+nome: "Matheus"
+idade: 30
+
+# Este objeto descreve o nosso projeto
+objects:
+  version: 2
+  file: "teste.txt"
+
+version: 2
+version_complete: 3.14
+
+string_sem_aspas: Digite um texto aqui
+texto: "Este tambem e um texto valido para o YAML"
+
+nulo: ~
+nulo_doid: null
+
+verdadeiro: True
+verdadeiro_2: On
+
+falso: False
+falso_2: Off
+
+list: [1, 2, 3, 4, 5]
+
+list_2:
+  - "test"
+  - 10
+  - outro test
+  - True
+
+obj: {a: 1, b: 2, c: 3, obj_interno: {a: 1} }
+
+object:
+  a: 1
+  b: 2
+  object_interno:
+    x: 2
